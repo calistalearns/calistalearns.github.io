@@ -2,182 +2,185 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-11-05T20:34:44+08:00</lastmod>
+    <loc>https://calistalearns.github.io/</loc>
+    <lastmod>2025-11-08T23:31:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://calistalearns.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="https://calistalearns.github.io/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/"
+                href="https://calistalearns.github.io/"
                 />
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-11-05T20:34:44+08:00</lastmod>
+    <loc>https://calistalearns.github.io/p/newnewnewnew/</loc>
+    <lastmod>2025-11-08T23:31:11+08:00</lastmod>
+  </url><url>
+    <loc>https://calistalearns.github.io/post/</loc>
+    <lastmod>2025-11-08T23:31:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/"
+                href="https://calistalearns.github.io/en/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/post/"
+                href="https://calistalearns.github.io/ar/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/post/"
+                href="https://calistalearns.github.io/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/p/second/</loc>
+    <loc>https://calistalearns.github.io/p/second/</loc>
     <lastmod>2025-11-05T20:34:44+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://calistalearns.github.io/categories/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://calistalearns.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="https://calistalearns.github.io/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/categories/"
+                href="https://calistalearns.github.io/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/p/test-chinese/</loc>
+    <loc>https://calistalearns.github.io/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/p/test-chinese/"
+                href="https://calistalearns.github.io/en/p/test-chinese/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/p/test-chinese/"
+                href="https://calistalearns.github.io/p/test-chinese/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/test/</loc>
+    <loc>https://calistalearns.github.io/categories/test/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/test/"
+                href="https://calistalearns.github.io/en/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/categories/test/"
+                href="https://calistalearns.github.io/categories/test/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://calistalearns.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/%E6%B5%8B%E8%AF%95/"
+                href="https://calistalearns.github.io/en/categories/%E6%B5%8B%E8%AF%95/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/categories/%E6%B5%8B%E8%AF%95/"
+                href="https://calistalearns.github.io/categories/%E6%B5%8B%E8%AF%95/"
                 />
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>https://calistalearns.github.io/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://calistalearns.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>https://calistalearns.github.io/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
+    <loc>https://calistalearns.github.io/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://calistalearns.github.io/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/markdown-syntax-guide/</loc>
+    <loc>https://calistalearns.github.io/p/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/syntax/</loc>
+    <loc>https://calistalearns.github.io/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://calistalearns.github.io/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://calistalearns.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="https://calistalearns.github.io/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/tags/"
+                href="https://calistalearns.github.io/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/themes/</loc>
+    <loc>https://calistalearns.github.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
+    <loc>https://calistalearns.github.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/placeholder-text/</loc>
+    <loc>https://calistalearns.github.io/p/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/"
+                href="https://calistalearns.github.io/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/p/placeholder-text/"
+                href="https://calistalearns.github.io/p/placeholder-text/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/tag-with-whitespaces/</loc>
+    <loc>https://calistalearns.github.io/tags/tag-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/test-with-whitespaces/</loc>
+    <loc>https://calistalearns.github.io/categories/test-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/text/</loc>
+    <loc>https://calistalearns.github.io/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/math-typesetting/</loc>
+    <loc>https://calistalearns.github.io/p/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emoji/</loc>
+    <loc>https://calistalearns.github.io/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/emoji-support/</loc>
+    <loc>https://calistalearns.github.io/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://calistalearns.github.io/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://calistalearns.github.io/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
+    <loc>https://calistalearns.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
   </url>
 </urlset>
