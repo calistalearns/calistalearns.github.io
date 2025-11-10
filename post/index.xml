@@ -16,11 +16,11 @@
         <description></description>
         </item>
         <item>
-        <title>Second</title>
-        <link>https://calistalearns.github.io/p/second/</link>
+        <title>MARKEDOWN入门</title>
+        <link>https://calistalearns.github.io/p/markedown%E5%85%A5%E9%97%A8/</link>
         <pubDate>Wed, 05 Nov 2025 20:34:44 +0800</pubDate>
         
-        <guid>https://calistalearns.github.io/p/second/</guid>
+        <guid>https://calistalearns.github.io/p/markedown%E5%85%A5%E9%97%A8/</guid>
         <description>&lt;h1 id=&#34;markedown使用&#34;&gt;&lt;center&gt; &lt;font face=仿宋&gt; MARKEDOWN使用 &lt;/font&gt;&lt;/center&gt;
 &lt;/h1&gt;&lt;h4 id=&#34;学习笔记简单入门&#34;&gt;&lt;p style=&#34;text-align: right;margin: 0; padding: 0;&#34;&gt; ———学习笔记（简单入门）&lt;/p&gt;
 &lt;/h4&gt;&lt;ul&gt;
@@ -128,7 +128,7 @@
 &lt;li&gt;小注&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;
 &lt;br&gt;&lt;/li&gt;
 &lt;li&gt;链接引用&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;br&gt;
-效果示范：
+效果示范：&lt;br&gt;
 变为&lt;u&gt;&lt;font  color=red&gt;大佬&lt;/font&gt;&lt;/u&gt;的超绝方案: &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1GJ411x7h7&#34;  title=&#34;双击于b站学习，嘻嘻&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;教程点击即看!!！&lt;/a&gt;&lt;/li&gt;

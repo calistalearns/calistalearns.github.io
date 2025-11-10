@@ -11,11 +11,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://calistalearns.github.io/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://calistalearns.github.io/en/categories/"
                 />
@@ -42,11 +37,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://calistalearns.github.io/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://calistalearns.github.io/en/"
                 />
@@ -57,11 +47,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://calistalearns.github.io/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://calistalearns.github.io/ar/post/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -100,11 +85,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://calistalearns.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://calistalearns.github.io/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
