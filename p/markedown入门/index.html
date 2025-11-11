@@ -10,7 +10,7 @@
 <meta property='og:description' content=" MARKEDOWN使用 ———学习笔记（简单入门）\n为什么学习markdown: 轻量级标记语言，专注内容而非样式 跨平台兼容，几乎所有编辑器都支持 程序员必备技能，GitHub、博客都在用 学习成本低，5分钟掌握基础语法 部分简单语法示例: 标题1 效果示范。 花样2 斜体\n效果示范 粗体\n效果示范 下划线\n效果示范。 高亮\n效果示范。 表情\n效果示范：😄 下标\n效果示范：H2O 上标\n效果示范：23 引用3 效果示范。\n">
 <meta property='og:url' content='https://calistalearns.github.io/p/markedown%E5%85%A5%E9%97%A8/'>
 <meta property='og:site_name' content='calista'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-11-05T20:34:44&#43;08:00'/><meta property='article:modified_time' content='2025-11-05T20:34:44&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-11-05T20:34:44&#43;08:00'/><meta property='article:modified_time' content='2025-11-11T00:07:49&#43;08:00'/>
 <meta name="twitter:title" content="MARKEDOWN入门">
 <meta name="twitter:description" content=" MARKEDOWN使用 ———学习笔记（简单入门）\n为什么学习markdown: 轻量级标记语言，专注内容而非样式 跨平台兼容，几乎所有编辑器都支持 程序员必备技能，GitHub、博客都在用 学习成本低，5分钟掌握基础语法 部分简单语法示例: 标题1 效果示范。 花样2 斜体\n效果示范 粗体\n效果示范 下划线\n效果示范。 高亮\n效果示范。 表情\n效果示范：😄 下标\n效果示范：H2O 上标\n效果示范：23 引用3 效果示范。\n">
     </head>
@@ -531,7 +531,19 @@
     <footer class="article-footer">
     
 
-    </footer>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 Nov 11, 2025 00:07 &#43;0800
+        </span>
+    </section></footer>
 
 
     
@@ -655,6 +667,73 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+<style>
+  body {
+    background: url(https://calistalearns.github.io/background/bz.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
+
+<style>
+  @font-face {
+    font-family: '字体名';
+    src: url(https://calistalearns.github.io/font/%E5%9B%BD.ttf) format('truetype');
+  }
+
+  :root {
+    --base-font-family: '字体名';
+    --code-font-family: '字体名';
+  }
+</style>
+
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
 </script>
 
     </body>

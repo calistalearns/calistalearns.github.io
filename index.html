@@ -11,7 +11,7 @@
 <meta property='og:description' content="你好哇~！(*´▽｀)ノノ">
 <meta property='og:url' content='https://calistalearns.github.io/'>
 <meta property='og:site_name' content='calista'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-11-08T23:31:11&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-11-11T00:07:49&#43;08:00 '/>
 <meta name="twitter:title" content="calista">
 <meta name="twitter:description" content="你好哇~！(*´▽｀)ノノ"><link rel="alternate" type="application/rss&#43;xml" href="https://calistalearns.github.io/index.xml">
     </head>
@@ -621,6 +621,73 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+<style>
+  body {
+    background: url(https://calistalearns.github.io/background/bz.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
+
+<style>
+  @font-face {
+    font-family: '字体名';
+    src: url(https://calistalearns.github.io/font/%E5%9B%BD.ttf) format('truetype');
+  }
+
+  :root {
+    --base-font-family: '字体名';
+    --code-font-family: '字体名';
+  }
+</style>
+
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
 </script>
 
     </body>
