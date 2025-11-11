@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on calista</title>
-        <link>https://calistalearns.github.io/post/</link>
-        <description>Recent content in Posts on calista</description>
+        <title>学习笔记 on calista</title>
+        <link>https://calistalearns.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <description>Recent content in 学习笔记 on calista</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>calista</copyright>
-        <lastBuildDate>Tue, 11 Nov 2025 17:11:16 +0800</lastBuildDate><atom:link href="https://calistalearns.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Newnewnewnew</title>
-        <link>https://calistalearns.github.io/p/newnewnewnew/</link>
-        <pubDate>Sat, 08 Nov 2025 23:31:11 +0800</pubDate>
-        
-        <guid>https://calistalearns.github.io/p/newnewnewnew/</guid>
-        <description></description>
-        </item>
-        <item>
+        <lastBuildDate>Tue, 11 Nov 2025 17:11:16 +0800</lastBuildDate><atom:link href="https://calistalearns.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MARKEDOWN入门</title>
         <link>https://calistalearns.github.io/p/markedown%E5%85%A5%E9%97%A8/</link>
         <pubDate>Wed, 05 Nov 2025 20:34:44 +0800</pubDate>
