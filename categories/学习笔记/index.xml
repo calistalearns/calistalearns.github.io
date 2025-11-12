@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>calista</copyright>
-        <lastBuildDate>Tue, 11 Nov 2025 23:20:52 +0800</lastBuildDate><atom:link href="https://calistalearns.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 12 Nov 2025 11:50:27 +0800</lastBuildDate><atom:link href="https://calistalearns.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MARKEDOWN入门2</title>
         <link>https://calistalearns.github.io/p/markedown%E5%85%A5%E9%97%A82/</link>
         <pubDate>Thu, 06 Nov 2025 20:34:44 +0800</pubDate>
@@ -124,7 +124,7 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 效果示范&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 就是酱紫&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
+&lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;代码块&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;br&gt;
 效果示范：
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
