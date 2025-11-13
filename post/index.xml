@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>calista</copyright>
-        <lastBuildDate>Wed, 12 Nov 2025 11:50:27 +0800</lastBuildDate><atom:link href="https://calistalearns.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 13 Nov 2025 15:15:18 +0800</lastBuildDate><atom:link href="https://calistalearns.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MARKEDOWN入门2</title>
         <link>https://calistalearns.github.io/p/markedown%E5%85%A5%E9%97%A82/</link>
         <pubDate>Thu, 06 Nov 2025 20:34:44 +0800</pubDate>
@@ -63,36 +63,38 @@
 &lt;/ul&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;标题&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;标题&lt;/code&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h5 id=&#34;效果示范&#34;&gt;效果示范。
 &lt;/h5&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;花样&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;br&gt;
-1.斜体
-&lt;em&gt;效果示范&lt;/em&gt;&lt;br&gt;
+&lt;p&gt;&lt;code&gt;花样&lt;/code&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;alert alert-warn&#34;&gt;
+    &lt;p&gt;1.斜体
+&lt;font color=pink&gt;&lt;em&gt;效果示范&lt;/em&gt;&lt;/font&gt;&lt;br&gt;
 2.粗体
-&lt;strong&gt;效果示范&lt;/strong&gt;&lt;br&gt;
+&lt;font color=pink&gt;&lt;strong&gt;效果示范&lt;/strong&gt;&lt;/font&gt;&lt;br&gt;
 3.下划
-&lt;u&gt;效果示范。&lt;/u&gt;&lt;br&gt;
+&lt;font color=pink&gt;&lt;u&gt;效果示范。&lt;/u&gt; &lt;/font&gt;&lt;br&gt;
 4.高亮
-&lt;mark&gt;效果示范。&lt;/mark&gt;&lt;br&gt;
+&lt;font color=pink&gt;&lt;mark&gt;效果示范。&lt;/mark&gt; &lt;/font&gt;&lt;br&gt;
 5.表情
-效果示范：😄&lt;br&gt;
+&lt;font color=pink&gt;效果示范：&lt;/font&gt;😄&lt;br&gt;
 6.下标
-效果示范：H&lt;sub&gt;2&lt;/sub&gt;O&lt;br&gt;
+&lt;font color=pink&gt; 效果示范：&lt;/font&gt; H&lt;sub&gt;2&lt;/sub&gt;O&lt;br&gt;
 7.上标
-效果示范：2&lt;sup&gt;3&lt;/sup&gt;&lt;/p&gt;
+&lt;font color=pink&gt; 效果示范：&lt;/font&gt; 2&lt;sup&gt;3&lt;/sup&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;引用&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;引用&lt;/code&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;效果示范。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;列表&lt;br&gt;
-1.图表&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;table&gt;
+&lt;p&gt;&lt;code&gt;列表&lt;/code&gt;&lt;br&gt;
+&lt;u&gt;a.图表&lt;/u&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;alert alert-warn&#34;&gt;
+    &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th style=&#34;text-align: right&#34;&gt;效果&lt;/th&gt;
@@ -112,20 +114,28 @@
           &lt;td style=&#34;text-align: left&#34;&gt;左左左&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;2.数字&lt;/p&gt;
+&lt;/table&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;u&gt;b.数字&lt;/u&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;有序&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;无序&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;br&gt;
+&lt;li&gt;
+&lt;p&gt;有序&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;无序&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;br&gt;
 -   效果示范&lt;br&gt;&lt;br&gt;
-3.可勾选list&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 效果示范&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 就是酱紫&lt;/li&gt;
+&lt;u&gt;c.可勾选list&lt;/u&gt;&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 效果示范&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 就是酱紫&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;代码块&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;br&gt;
+&lt;li&gt;&lt;code&gt;代码块&lt;/code&gt;&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;br&gt;
 效果示范：
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -144,37 +154,39 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;小注&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;
+&lt;li&gt;&lt;code&gt;小注&lt;/code&gt;&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;
 &lt;br&gt;&lt;/li&gt;
-&lt;li&gt;链接引用&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;br&gt;
-效果示范：&lt;br&gt;
-变为&lt;u&gt;&lt;font  color=yellow&gt;大佬&lt;/font&gt;&lt;/u&gt;的超绝方案: &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1GJ411x7h7&#34;  title=&#34;双击于b站学习，嘻嘻&#34;
+&lt;li&gt;&lt;code&gt;链接引用&lt;/code&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;br&gt;
+效果示范：
+&lt;blockquote class=&#34;alert alert-warn&#34;&gt;
+    &lt;p&gt;变为&lt;u&gt;&lt;font  color=yellow&gt;大佬&lt;/font&gt;&lt;/u&gt;的超绝方案: &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1GJ411x7h7&#34;  title=&#34;双击于b站学习，嘻嘻&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt; &lt;font  color=pink&gt; 教程点击即看!!！ &lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
+    &gt; &lt;font  color=pink&gt; 教程点击即看!!！ &lt;/font&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;...&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;跳转结果&#34;&gt;跳转结果:
 &lt;/h3&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;文字之前加上“ # ”。最多可输入六个有效 #，随 # 的增加，标题字号变小
+&lt;p&gt;&lt;code&gt;文字之前加上“ # ”。最多可输入六个有效 #，随 # 的增加，标题字号变小&lt;/code&gt;
 &lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;·(斜体)左右各使用一个“ * ”将内容包住；&lt;br&gt;
+&lt;p&gt;·&lt;code&gt;(斜体)左右各使用一个“ * ”将内容包住；&lt;/code&gt;&lt;br&gt;
 ·(加粗)左右各使用二个“ * ”将内容包住；&lt;br&gt;
-·(下划线)左右分别使用“ &amp;lt; u &amp;gt; ”与“ &amp;lt; /u &amp;gt; ”将内容包住；&lt;br&gt;
+·&lt;code&gt;(下划线)左右分别使用“ &amp;lt; u &amp;gt; ”与“ &amp;lt; /u &amp;gt; ”将内容包住；&lt;/code&gt;&lt;br&gt;
 ·(高亮)左右各使用二个“ == ”将内容包住；&lt;br&gt;
-·(表情)左右各使用一个“ : ”将内容包住；&lt;br&gt;
+·&lt;code&gt;(表情)左右各使用一个“ : ”将内容包住；&lt;/code&gt;&lt;br&gt;
 ·(下标)左右各使用一个“ ~ ”将内容包住；&lt;br&gt;
-·(上标)左右各使用一个“ ^ ”将内容包住； &lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+·&lt;code&gt;(上标)左右各使用一个“ ^ ”将内容包住；&lt;/code&gt; &lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:3&#34;&gt;
-&lt;p&gt;添加“ &amp;gt; ”于输出内容之前&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;添加“ &amp;gt; ”于输出内容之前&lt;/code&gt;&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:4&#34;&gt;
-&lt;p&gt;注意格式至少需要三行（下示原代码）&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;注意格式至少需要三行（下示原代码）&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;表头行：效果|示范|。&lt;br&gt;
 分割行：&amp;mdash;: | :&amp;mdash;: | :&amp;mdash;&lt;br&gt;
@@ -182,22 +194,22 @@
 &lt;/blockquote&gt;
 &amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/li&gt;
 &lt;li id=&#34;fn:5&#34;&gt;
-&lt;p&gt;“ 数字 ” 加 “ . ” 加 “ 空格 ”&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; “ 数字 ” 加 “ . ” 加 “ 空格 ”&lt;/code&gt;&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:6&#34;&gt;
-&lt;p&gt;在输入内容之前加上“ - ”或者“ + ”或者“ * ”均可，然后再加上空格&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;在输入内容之前加上“ - ”或者“ + ”或者“ * ”均可，然后再加上空格&lt;/code&gt;&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:7&#34;&gt;
-&lt;p&gt;“ - ”加“ [ ] ”加内容&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;“ - ”加“ [ ] ”加内容&lt;/code&gt;&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:8&#34;&gt;
-&lt;p&gt;使用“ `` `c ” 与 “  ``` ”将文本包围&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;使用“ ```c ” 与 “  ``` ”将文本包围&lt;/code&gt;&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:9&#34;&gt;
-&lt;p&gt;在需注的内容后加上“ [^数字] ”，在跳转的解释前加上“ [^数字]: ”&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;在需注的内容后加上“ [^数字] ”，在跳转的解释前加上“ [^数字]: ”&lt;/code&gt;&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:10&#34;&gt;
-&lt;p&gt;“ [内容] ”加“ (跳转网址)”。图片链接,视频链接都可以如此操作&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;“ [内容] ”加“ (跳转网址)”。图片链接,视频链接都可以如此操作&lt;/code&gt;&lt;br&gt;&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
